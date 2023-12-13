@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(./headerbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    background-attachment: fixed;
+}
+.qt1{
+    font-family: rubik bubbles;
+}
+.qt2{
+    font-family: dancing script;
+}
+.qt{
+    font-size: 40px;
+    color: rgb(154, 88, 60);
+}
+nav h1{
+    font-size: 40px;
+    color: orange;
+}
+.eqip{
+    border: none;
+    border-bottom: 2px solid violet;
+}
+.more{
+    border-radius: 20px;
+}
+.fest{
+    background-color: aqua;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+.festival{
+    height: 400px;
+}
+.str{
+    color: green;
+}
+.foot{
+    color: white;
+}
+.brands{
+    color: black;
+    font-size: 50px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: black;
+    
+}
+.abt{
+    text-decoration: none;
+    color: white;
+}
+.about{
+    list-style: none;
+}
+.footlogo{
+    width: 100px;
+    height: 100px;
+}
+.love{
+    color:blue;
+    font-size: 25px
+}
+.festival{
+    height: 200px;
+}
+.north{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    /* display: inline-block; */
+}
+.north:hover .overlay{
+    opacity: 1;
+}
+.taj{
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+.overlay{
+    position: absolute;
+    transition: all .5s;
+    opacity: 0;
+    background-color: aquamarine;
+}
+
+.txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.overlayfade{
+    height: 300px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(127, 255, 212, 0.307);
+}
+.north:hover .overlayfade{
+    width: 100%;
+    height: 100%;
+}
+.book{
+    padding: 5px;
+    background-color: rgb(191, 68, 68);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
