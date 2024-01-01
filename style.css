@@ -8,7 +8,22 @@ header{
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+   width: 100%;
     background-attachment: fixed;
+}
+.nav-link{
+  font-size: 18px !important;  
+}
+.nav-link:hover{
+    color: red !important;
+}
+.card-text{
+    text-align: justify !important;
+}
+.img-size{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 .qt1{
     font-family: rubik bubbles;
@@ -31,6 +46,10 @@ nav h1{
 .more{
     border-radius: 20px;
 }
+.honey:hover{
+    background-color: lightblue;
+    box-shadow: 5px 5px 5px rgb(85, 162, 188);
+}
 .fest{
     background-color: aqua;
     color: black;
@@ -38,8 +57,12 @@ nav h1{
     padding: 5px;
     border-radius: 5px;
 }
+.fest{
+    height: 500px;
+}
 .festival{
-    height: 400px;
+    height: 100% !important;
+    object-fit: cover;
 }
 .str{
     color: green;
@@ -83,6 +106,7 @@ nav h1{
 .north{
     width: 300px;
     height: 300px;
+ 
     position: relative;
     /* display: inline-block; */
 }
@@ -95,10 +119,11 @@ nav h1{
     height: 300px;
 }
 .overlay{
+
     position: absolute;
     transition: all .5s;
     opacity: 0;
-    background-color: aquamarine;
+    background-color: rgba(101, 188, 225, 0.634);
 }
 
 .txt{
@@ -116,7 +141,7 @@ nav h1{
     width: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(127, 255, 212, 0.307);
+    background-color: rgba(220, 224, 88, 0.422);
 }
 .north:hover .overlayfade{
     width: 100%;
@@ -127,6 +152,63 @@ nav h1{
     background-color: rgb(191, 68, 68);
     border-radius: 5px;
     text-decoration: none;
-    color: black;
+    color: BLACK;
     font-weight: bold;
 }
+.book:hover{
+    color: white;
+}
+.service{
+    transition: all 0.7s !important;
+}
+.service:hover{
+    transform: scale(1.10);
+    box-shadow: 10px 8px 5px 5px rgba(198, 84, 84, 0.815);
+}
+.serv-img{
+    width: 90% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 50% !important;
+}
+.serv-text{
+    font-size: 20px;
+    color: red;
+}
+.premium{
+    background-color: rgba(255, 228, 196, 0.566);
+    height: 450px;
+}
+.learn{
+    color: red;
+}
+.brand{
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(122, 38, 13),rgba(177, 81, 36, 0.719),white);
+}
+.icon:hover .brand{
+    color: white;
+    animation: move 0.5s;
+ }
+ @keyframes move {
+     0%{
+         transform: rotate(15deg);
+     }
+     25%{
+         transform: rotate(-15deg);
+     }
+     50%{
+         transform: rotate(15deg);
+     }
+     75%{
+         transform: rotate(-15deg);
+     }
+     100%{
+         transform: rotate(15deg);
+     }
+ }
+ html{
+    scroll-behavior: smooth;
+ }
